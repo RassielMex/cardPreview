@@ -96,10 +96,14 @@ body {
 .attribution {
   height: 3vh;
   background-color: white;
-  min-width: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.attribution a {
+  margin: 0 0.2rem;
 }
 
 @media screen and (max-width: 400px) {
@@ -150,5 +154,9 @@ body {
     align-items: center;
     justify-content: flex-end;
     margin: 0.5rem 0 2rem 0;
+  }
+
+  .attribution {
+    font-size: 0.7rem;
   }
 }
